@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Jesus Coloring App",
+    "slug": "jesus-coloring-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "jesuscoloring",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lightningjd.jesuscoloringapp"
+    },
+    "android": {
+      "package": "com.lightningjd.jesuscoloringapp"
+    }
+  }
+}
