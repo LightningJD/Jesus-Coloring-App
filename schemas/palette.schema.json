@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Palette Schema",
+  "type": "object",
+  "properties": {
+    "palette_name": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "hex": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        },
+        "required": ["id", "hex", "label"]
+      }
+    }
+  },
+  "required": ["palette_name", "colors"]
+}
